@@ -50,7 +50,12 @@ on a subset of the **LFW dataset** (15 identities, 372 images).
 
 
 # Quick Start
-Create a Python environment, then:
+
+-This repository provides the **evaluation and analysis pipeline**.
+-Raw datasets and cloaked images are not included.
+
+1.Create a Python environment
+2.Then:
 
 ```bash
 pip install -r requirements.txt
