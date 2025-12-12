@@ -51,11 +51,10 @@ on a subset of the **LFW dataset** (15 identities, 372 images).
 
 # Quick Start
 
--This repository provides the **evaluation and analysis pipeline**.
--Raw datasets and cloaked images are not included.
+This repository provides the **evaluation and analysis pipeline**.
+(Raw datasets & cloaked images not included)
 
-1.Create a Python environment
-2.Then:
+1. Create a Python environment, then:
 
 ```bash
 pip install -r requirements.txt
@@ -68,6 +67,13 @@ python src/eval_pipeline.py
 
 
 # Academic Context
-I built this for a graduate Secure AI course project. The goal is to evaluate how facial cloaking (Fawkes) affects recognition performance and how lightweight defenses (JPEG recompression and blur) can recover accuracy.
+I built this for a graduate Secure AI course project.
+ 
+The goal is to evaluate how facial cloaking (Fawkes) affects recognition performance and how 
+lightweight defenses (JPEG recompression and blur) can recover accuracy.
 
-This repository includes the experiment code and configuration, but excludes datasets and cloaked outputs due to licensing and size constraints.
+Repository includes experiment code and configuration
+#-excludes datasets 
+#-cloaked outputs 
+
+due to size constraints.
