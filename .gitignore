@@ -1,0 +1,23 @@
+# virtual envs
+venv/
+venv_fawkes/
+
+# datasets + generated images
+data/
+faces_clean/
+faces_edited/
+faces_clean_flat/
+faces_cloaked_flat/
+faces_cloaked/
+
+# model / cache files
+*.h5
+*.pt
+*.pth
+*.onnx
+__pycache__/
+.DS_Store
+
+# logs
+*.log
+outputs/
