@@ -33,21 +33,20 @@ Due to dataset licensing and size, this repo does not include:
 
 # Results
 
-# Evaluation was performed using FaceNet embeddings with 1-NN cosine similarity
-on a subset of the LFW dataset (15 identities, 372 images).
+Evaluation was performed using **FaceNet embeddings** with 1-NN cosine similarity
+on a subset of the **LFW dataset** (15 identities, 372 images).
 
 # Condition & Accuracy
-#---------
-# Clean              | 71.79% 
-# Edited (JPEG/Blur) | 49.57% 
-# Cloaked (Fawkes)   | 62.39% 
-# Cloaked + JPEG     | 58.12% 
-# Cloaked + Blur     | 28.21% 
+Clean              | 71.79% 
+Edited (JPEG/Blur) | 49.57% 
+Cloaked (Fawkes)   | 62.39% 
+Cloaked + JPEG     | 58.12% 
+Cloaked + Blur     | 28.21% 
 
-## Results show that while Fawkes degrades recognition accuracy, simple
-image space defenses such as blur can significantly disrupt facial embeddings more than cloaking.
-
-
+# Observations
+- Fawkes degrades recognition accuracy but does not fully defeat modern face recognition
+- Simple image space defenses (such as **Gaussian blur**) can disrupt embeddings more than cloaking alone
+- Lightweight defenses provide strong privacy protection with minimal computational cost
 
 
 # Quick Start
