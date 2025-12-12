@@ -31,6 +31,14 @@ Due to dataset licensing and size, this repo does not include:
 - Defense recovery (how much of the lost accuracy is recovered)
 - Runtime notes (practicality)
 
+############## Results
+- Clean accuracy: TBD
+- Edited (JPEG/blur) accuracy: TBD
+- Cloaked accuracy (Fawkes): TBD
+- Cloaked + JPEG defense: TBD
+- Cloaked + blur defense: TBD
+##############
+
 # Quick Start
 Create a Python environment, then:
 
